@@ -5,10 +5,11 @@
              x:Class="AppWebServiceSoap.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="Num1"/>
+        <Label Text="+"/>
+        <Entry x:Name="Num2"/>
+        <Button Text="Enviar ao Servidor" Clicked="EnviarSOAP"/>
+        <Label x:Name="txtResultado"/>
     </StackLayout>
 
 </ContentPage>
